@@ -37,7 +37,6 @@ export default () => (
     <Box pad="medium">Two</Box>
   </Tab>
 </Tabs>`}
-      themeDoc={themeDocTabs}
     />
 
     <Doc
@@ -48,7 +47,6 @@ export default () => (
       syntaxes={{
         title: ['Tab Title', '<Box>...</Box>'],
       }}
-      themeDoc={themeDocTab}
     />
   </Page>
 );
